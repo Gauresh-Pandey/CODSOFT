@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+.main{
+    width: 100%;
+    background: url(/image/white.png);
+    background-size: cover;
+    position: fixed;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.about h1{
+    position: relative;
+    left: 10vw;
+    top: 17vh;
+    font-size: 12vh;
+    color: rgb(35, 163, 152);
+}
+.about h1:hover{
+    position: relative;
+    left: 10vw;
+    top: 17vh;
+    color: rgb(163, 35, 103);
+}
+.about p{
+    position: relative;
+    left: 10vw;
+    top: 19vh;
+    font-size: 5vh;
+}
+.about p:hover{
+    position: relative;
+    left: 10vw;
+    top: 19vh;
+    font-size: 5vh;
+    color: rgb(128, 121, 207);
+}
+.about img{
+    position: absolute;
+    height: 50vh;
+    width: 30vw;
+    left: 60vw;
+    top: 20vh;
+}
+.about img:hover{
+    position: absolute;
+    height: 50vh;
+    width: 30vw;
+    left: 60vw;
+    top: 20vh;
+    border-radius: 12%;
+    background-color: darkcyan;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: green;
+    position: relative;
+    top: 5vh;
+    left: 115vh;
+}
+a:hover {
+    color: rgb(255, 153, 0);
+}

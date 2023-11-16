@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url(/image/pro.png);
+    background-size: cover;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+}
+.project{
+    position: relative;
+    top: 10vh;
+    left: 5vw;
+}
+.project h1{
+    font-size: 15vh;
+}
+.project p{
+    font-size: 6vh;
+    color: rgb(8, 199, 206);
+}
+.project p:hover{
+    font-size: 6vh;
+    color: chocolate;
+}
+.project h1:hover{
+    font-size: 15vh;
+    color: rgb(187, 161, 30);
+}
+h2{
+    position: relative;
+    top: 12vh;
+    left: 6vw;
+}
+.cal img{
+    height: 30vh;
+    width: 25vh;
+    position: absolute;
+    left: 9vh;
+    top: 48vh;
+    border-radius: 5%;
+}
+.cal img:hover{
+    height: 30vh;
+    width: 25vh;
+    position: absolute;
+    left: 9vh;
+    top: 50vh;
+    border-radius: 15%;
+}
+#h2 h2:hover{
+    color: rgb(71, 192, 15);
+    cursor: pointer;
+
+}
+#h2{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+}
+.dic img{
+    height: 30vh;
+    width: 25vh;
+    position: absolute;
+    left: 40vh;
+    top: 48vh;
+    border-radius: 5%;
+}
+.dic img:hover{
+    height: 30vh;
+    width: 25vh;
+    position: absolute;
+    left: 40vh;
+    top: 50vh;
+    border-radius: 15%;
+}
+#h3 h2{
+    position: absolute;
+    left: 20vw;
+    top: 42vh;
+}
+#h3 h2:hover{
+    color: rgb(71, 192, 15);
+    cursor: pointer;
+
+}
+.music img{
+    height: 30vh;
+    width: 25vh;
+    position: absolute;
+    left: 71vh;
+    top: 48vh;
+    border-radius: 5%;
+}
+#h4 h2{
+    position: absolute;
+    left: 36vw;
+    top: 42vh;
+}
+.music img:hover{
+    height: 30vh;
+    width: 25vh;
+    position: absolute;
+    left: 71vh;
+    top: 50vh;
+    border-radius: 15%;
+}
+#h4 h2:hover{
+    color: rgb(71, 192, 15);
+    cursor: pointer;
+
+}
+.portfolio img{
+    height: 30vh;
+    width: 25vh;
+    position: absolute;
+    left: 102vh;
+    top: 48vh;
+    border-radius: 5%;
+}
+.portfolio img:hover{
+    height: 30vh;
+    width: 25vh;
+    position: absolute;
+    left: 102vh;
+    top: 50vh;
+    border-radius: 15%;
+}
+#h5 h2{
+    position: absolute;
+    left: 51vw;
+    top: 42vh;
+}
+#h5 h2:hover{
+    color: rgb(71, 192, 15);
+    cursor: pointer;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: green;
+    position: relative;
+    top: -5vh;
+    left: 105vh;
+}
+a:hover {
+    color: rgb(255, 153, 0);
+}
