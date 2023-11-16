@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.main{
+    background-image: url(/image/ddd.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+ .navbar .strt button {
+    position: relative;
+    top: 70vh;
+}
+ul li {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    left: 22vw;
+    top: 3vh;
+    font-size: 3vh;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 3vh;
+    font-weight: bold;
+    color: rgb(231, 139, 26);
+    padding: 1vw 1vw;
+}
+ul li a:hover{
+    text-decoration: none;
+    font-size: 3vh;
+    font-weight: bold;
+    color: rgb(50, 231, 26);
+    padding: 1vw 1vw;
+}
+.navbar h2{
+    color: white;
+    position: relative;
+    left: 1.5vw;
+    font-size: 3vh;
+}
+.navbar h2:hover{
+    color: rgb(2, 240, 169);
+    position: relative;
+    left: 1.5vw;
+    font-size: 3vh;
+}
+.navbar input{
+    position: relative;
+    top: 0vh;
+    left: 1vw;
+}
+.navbar input li{
+    position: relative;
+    top: 30vh;
+}
+.navbar i{
+    position: relative;
+    top: 1vh;
+    left: -1vw;
+    font-size: 3vh;
+    color: aquamarine;
+}
+.navbar button{
+    position: relative;
+    left: 3vw;
+    background-color: rgb(223, 64, 36);
+    border-radius: 15vw;
+}
+.navbar button  a{
+    position: relative;
+    color: rgb(255, 253, 246);
+}
+.navbar{
+    position: fixed;
+    top: 0vh;
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(3, 3, 117);
+
+}
+.navbar h1{
+    position: fixed;
+    top: 2vh;
+    left: 5vw;
+    color: rgb(244, 251, 253);
+    cursor: pointer;
+}
+.navbar h1:hover{
+    position: fixed;
+    top: 2vh;
+    left: 5vw;
+    color: rgb(107, 240, 200);
+    cursor: pointer;
+}
+.para p{
+    position: absolute;
+    top: 55vh;
+    left:16vw ;
+    font-size: 4vh;
+    color: rgb(0, 204, 255);
+}
+span{
+    color: rgb(241, 93, 56);
+}
+span:hover{
+color: rgb(107, 240, 200);
+}
+.head h1{
+    position: absolute;
+    top: 30vh;
+    left: 16vw;
+    color: rgb(209, 232, 248);
+    font-size: 10vh;
+}
+
+.about{
+    background-image: url(/image/hgh.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.music img{
+    position: relative;
+    left: 50vw;
+    top: 12vh;
+}
+.about img{
+    position: relative;
+    left: 55vw;
+    top: 12vh;
+    height: 40vh;
+    width: 24vw;
+}
+
+.about h1{
+    left: 16vw;
+    color: aqua;
+    position: relative;
+    top: 20vh;
+    font-size: 8vh;
+}
+.about p{
+    font-size: 4vh;
+    color: white;
+    position: relative;
+    top: -17vh;
+    left: 16vw;
+    color: rgb(0, 204, 255);
+}
+.music{
+    background-image: url(/image/dj.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.music h1{
+    color: rgb(241, 252, 255);
+    position: relative;
+    font-size: 8vh;
+    left: 16vw;
+    position: relative;
+    top: 20vh;
+}
+.music p{
+    color:  rgb(237, 247, 250);
+    position: relative;
+    left: 33vh;
+    top: -20vh;
+    font-size: 4vh;
+}
+.video{ 
+    background-image: url(/image/add.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.video h1{
+    color: rgb(47, 189, 255);
+    position: relative;
+    left: 16vw;
+    top: 20vh;
+    font-size: 10vh;
+} .video p{
+    color: rgb(47, 255, 227);
+    position: relative;
+    left: 16vw;
+    top: -16vh;
+    font-size: 4vh;
+}
+.video img{
+    position: relative;
+    left: 55vw;
+    top: 12vh;
+    height: 40vh;
+    width: 24vw;
+}
+.contact{
+    background-image: url(/image/conts.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.contact h1{
+   color: rgb(50, 174, 212);
+   font-size: 10vh;
+   position: relative;
+   left: 16vw;
+   top: 20vh;
+}
+.contact h2{
+    color: aquamarine;
+    position: relative;
+    left: 16vw;
+    top: 24vh;
+    font-size: 4vh;
+}
+.icons{
+    position: absolute;
+    top: 60vh;
+    left: 6vw;
+}
+.icons a{
+    position: relative;
+    left: 30vw;
+    top: 400vh;
+    color: rgb(15, 235, 198);
+    font-size: 10vh;
+}
+.cp{
+    font-size: 12vh;
+    position: absolute;
+    top: 475vh;
+    left: 52vw;
+    color: rgb(7, 173, 224);
+}
+ .cp h2 {
+    position: absolute;
+    font-size: 6vh;
+    left: -14vw;
+    top: 3vh;
+}
+i{
+    font-size: 12vh;
+}
+.cp p{
+    font-size: 4vh;
+    position: absolute;
+    left: -13vw;
+    top: 11vh;
+    color: rgb(10, 202, 216);
+    font-weight: bold;
+}
